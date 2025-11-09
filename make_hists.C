@@ -12,9 +12,9 @@ void make_hists(){
   gROOT->Reset();  // useful to reset ROOT to a cleaner state
   TFile *file = new TFile("mydata.root","recreate");
   TRandom *generator=new TRandom2(0);  // parameter == seed, 0->use clock
-  TH1F *back1 = new TH1F("back1", "Bkg Histogram1", 50, 0, 50);
-  TH1F *back2 = new TH1F("back2", "Bkg Histogram2", 50, 0, 50);
-  TH1F *signal=new TH1F("signal", "Signal Histogram", 50, 0, 50);
+  TH1F *back1 = new TH1F("back1", "Bkg Histogram1;x;# of Events", 50, 0, 50);
+  TH1F *back2 = new TH1F("back2", "Bkg Histogram2;x;# of Events", 50, 0, 50);
+  TH1F *signal=new TH1F("signal", "Signal Histogram;x;# of Events", 50, 0, 50);
   TH1F *data=new TH1F("data", "Data Histogram;x;# of Events", 50, 0, 50);
 
   const Int_t NMC=10000;
