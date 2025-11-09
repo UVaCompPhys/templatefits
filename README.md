@@ -1,6 +1,6 @@
 # Template fits
 
-This repository includes an example of performing a template fir to data.  Expected distributions of multiple backgrounds and a signal source are modeled by Monte Carlo (simulated) histograms.
+This repository includes an example of performing a template fit to data.  Expected distributions of multiple backgrounds and a signal source are modeled by Monte Carlo (simulated) histograms.
 
 These shapes are adjusted to find the best agreement with the observed data and a nice plot is generated.  The fitting code is based on https://root.cern.ch/doc/master/classTFractionFitter.html
 
