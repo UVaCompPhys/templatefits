@@ -14,9 +14,7 @@ Begin by generating a data set using
 
 ## A few additional comments
 
-The basic example given here assume that the uncertainties on the bin contents of the model histograms are negligible (at least compared to the incertaintied on the data).  This can be a good assumption if models are derived from a high statistics simulation or control sample in the data.  If this assumpion is not valid, then the method risks being biased by statistical fluctuations in the models.  For example, stat fluftuations can be interpred as significant contributions to the shape of the model.
-
-A way to protect against biases one can apply the [Barlow-Beeston](https://www.sciencedirect.com/science/article/abs/pii/001046559390005W?via%3Dihub) (or related methods) which, roughly speaking, simultaneously maximizes the likelihood of the data given the model, where the model is allowed to vary within statistical uncertainties.  
+The basic example given here assume that the uncertainties on the bin contents of the model histograms are negligible (at least compared to the incertaintied on the data).  This can be a good assumption if models are derived from a high statistics simulation or control sample in the data.  If this assumpion is not valid, then the method risks being biased by statistical fluctuations in the models.  For example, stat fluftuations can be interpred as significant contributions to the shape of the model. To protect against biases one can apply the [Barlow-Beeston](https://www.sciencedirect.com/science/article/abs/pii/001046559390005W?via%3Dihub) (or related methods) which, roughly speaking, simultaneously maximizes the likelihood of the data given the model, where the model is allowed to vary within statistical uncertainties.  
 
 
 
